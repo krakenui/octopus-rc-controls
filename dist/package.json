@@ -1,6 +1,6 @@
 {
   "name": "navi-controls",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "naviet simpler controls",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
@@ -9,7 +9,7 @@
     "format-style": "prettier --single-quote --trailing-comma es5 --print-width=140 \"src/**/*.scss\"",
     "format": "npm run format-js & npm run format-style",
     "copy:dist": "gulp clean & gulp copy",
-    "build:prod": "npm run copy:dist & npm run build",
+    "build:prod": "gulp clean & npm run build & gulp copy",
     "build:format": "npm run format & webpack & build:prod"
   },
   "main": "index.js",
