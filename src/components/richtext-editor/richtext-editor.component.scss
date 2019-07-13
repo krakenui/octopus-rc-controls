@@ -1,0 +1,32 @@
+@import '../../shared/styles/variables';
+
+.sc-editor {
+    background-color: $color-white;
+    .rdw-fontfamily-wrapper {
+        min-width: 200px;
+
+        .rdw-fontsize-dropdown {
+            min-width: 50px;
+        }
+
+        .rdw-fontfamily-dropdown {
+            width: 100%;
+
+            .rdw-fontfamily-optionwrapper {
+                width: 100%;
+            }
+
+            .rdw-fontfamily-placeholder {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .rdw-editor-toolbar {
+        background-color: $color-cyan;
+    }
+
+    .rdw-image-modal-upload-option-image-preview {
+        padding: 10px;
+    }
+}

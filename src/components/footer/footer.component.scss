@@ -1,0 +1,81 @@
+@import '../../shared/styles/variables';
+
+.footer {
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+.bottom-copyright {
+    background-color: $color-blue;
+    color: $color-white;
+    font-size: $font-medium;
+
+    a {
+        color: $color-orange;
+        text-decoration: none;
+    }
+
+    .copyright {
+        line-height: 60px;
+    }
+
+    .social {
+        line-height: 60px;
+        text-align: right;
+        a {
+            margin-left: 5px;
+        }
+    }
+}
+
+.brand {
+    color: $color-blue;
+    float: left;
+    text-transform: uppercase;
+    padding: 3px 0 0 10px;
+    line-height: normal;
+
+    .slogan {
+        letter-spacing: 0.5px;
+    }
+}
+
+.top-sitemap {
+    .contact-list {
+        list-style: none;
+        margin-top: 25px;
+        padding-left: 0;
+        > li {
+            font-size: $font-small;
+
+            i {
+                color: $color-blue;
+                margin-right: 5px;
+            }
+
+        }
+    }
+
+    h4 {
+        font-size: $font-medium;
+        text-transform: uppercase;
+        color: $color-blue;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
+
+.embeded-map {
+    iframe {
+        width: 80%;
+        min-height: 150px;
+        border: 1px solid $color-blue;
+        padding: 5px;
+    }
+
+    padding-bottom: 10px;
+}
+
+.logo-img {
+    max-height: 55px;
+  }

@@ -1,0 +1,10 @@
+@import '../../shared/styles/variables';
+
+.service-other {
+    img {
+        width: 99%;
+        border: 1px solid $color-gray;
+    }
+
+    margin-bottom: 40px;
+}

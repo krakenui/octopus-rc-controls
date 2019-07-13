@@ -1,0 +1,65 @@
+@import '../../shared/styles/variables';
+
+.vertical-top-menu {
+    background-color: $color-gray-light;
+    .title {
+        background-color: $color-blue;
+        color: $color-white;
+        border-radius: 5px 5px 0 0;
+        margin: 0;
+        padding: 8px 20px;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .content {
+        background-color: $color-gray-light;
+        padding: 0;
+        margin: 0;
+
+        .item {
+            list-style: outside none none;
+            padding: 10px;
+            border-bottom: 1px dotted $color-gray;
+
+            img {
+                width: 99%;
+            }
+
+            &:last-child {
+                border-bottom: none;
+            }
+            
+            a {
+                color: $color-gray;
+                font-size: 14px;
+                line-height: 130%;
+                text-transform: none;
+                margin-top: 0;
+                margin-bottom: 0;
+                line-height: 1;
+
+                &:hover {
+                    color: $color-blue;
+                }
+            }
+
+            &:not(:first-of-type) {
+                padding-top: 5px;
+            }
+
+            .text {
+                color: $color-blue;
+                font-size: $font-medium;
+            }
+
+            .date {
+                margin-bottom: 0;
+                font-size: $font-small-ex;
+                font-style: italic;
+                color: $color-black;
+            }
+        }
+    }
+}

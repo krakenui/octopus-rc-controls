@@ -1,0 +1,15 @@
+@import '../../shared/styles/variables';
+
+.contact-form {
+    padding: 20px 100px 20px 30px;
+
+    .action {
+        text-align: right;
+    }
+}
+
+.error {
+    font-style: italic;
+    color: $color-red;
+    font-size: $font-small;
+}

@@ -1,0 +1,77 @@
+@import '../../shared/styles/variables';
+
+.carousel {
+    .slick-dots {
+        bottom: 0;
+    }
+    .carousel-item {
+        position: relative;
+        &:focus {
+            outline: none;
+        }
+
+        .carousel-image {
+            max-height: 400px;
+        }
+
+        img {
+            width: 100%;
+        }
+        .altText {
+            color: $color-blue;
+            position: absolute;
+            left: 15%;
+            top: 30%;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            vertical-align: middle;
+            text-align: center;
+            padding: 0 25px;
+            > div {
+                background-color: $color-white-blur;
+                padding-top: 20px;
+            }
+
+            .title {
+                line-height: $font-large-ex;
+                font-size: $font-large-ex;
+                font-weight: 500;
+            }
+
+            .text {
+                padding: 2.5px 15px;
+            }
+        }
+    }
+
+    .slick-prev,
+    .slick-next {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        font-weight: 900;
+
+        &::before {
+            font-family: 'Font Awesome 5 Free' !important;
+            font-size: 30px;
+            color: $color-blue;
+        }
+    }
+
+    .slick-prev {
+        left: 25px;
+        &::before {
+            content: '\f137';
+        }
+    }
+    .slick-next {
+        right: 25px;
+        &::before {
+            content: '\f138';
+        }
+    }
+}

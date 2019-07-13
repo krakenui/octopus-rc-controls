@@ -1,0 +1,73 @@
+{
+  "name": "navi-controls",
+  "version": "1.0.0",
+  "description": "naviet simpler controls",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "format-js": "prettier --single-quote --trailing-comma es5 --print-width=140 \"src/**/*.js\"",
+    "format-style": "prettier --single-quote --trailing-comma es5 --print-width=140 \"src/**/*.scss\"",
+    "format": "npm run format-js & npm run format-style",
+    "copy:dist": "gulp clean & gulp copy",
+    "build:prod": "npm run copy:dist & npm run build",
+    "build:format": "npm run format & webpack & build:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DuyLuongPhung/navi-controls.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "signup",
+    "signin",
+    "forgot",
+    "passord",
+    "reset",
+    "password",
+    "tnc",
+    "contact",
+    "us"
+  ],
+  "homepage": "https://github.com/DuyLuongPhung/navi-controls.git",
+  "main": "index.js",
+  "author": "Duy Luong Phung",
+  "license": "MIT",
+  "dependencies": {
+    "draft-js": "^0.10.5",
+    "draftjs-to-html": "^0.8.4",
+    "html-to-draftjs": "^1.4.0",
+    "react-draft-wysiwyg": "^1.13.2"
+  },
+  "devDependencies": {
+    "antd": "^3.18.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "4.1.1",
+    "react-slick": "^0.24.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^6.4.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^1.3.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
