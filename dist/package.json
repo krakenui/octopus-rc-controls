@@ -12,23 +12,6 @@
     "build:prod": "npm run copy:dist & npm run build",
     "build:format": "npm run format & webpack & build:prod"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DuyLuongPhung/navi-controls.git"
-  },
-  "keywords": [
-    "boilerplate",
-    "signup",
-    "signin",
-    "forgot",
-    "passord",
-    "reset",
-    "password",
-    "tnc",
-    "contact",
-    "us"
-  ],
-  "homepage": "https://github.com/DuyLuongPhung/navi-controls.git",
   "main": "index.js",
   "author": "Duy Luong Phung",
   "license": "MIT",
