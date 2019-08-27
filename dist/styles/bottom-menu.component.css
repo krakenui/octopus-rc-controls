@@ -1,0 +1,18 @@
+/** Color */
+/* Font size */
+.bottom-menu {
+  list-style: none;
+  margin-top: 25px; }
+  .bottom-menu > li {
+    font-size: 15px;
+    letter-spacing: 0.5px; }
+    .bottom-menu > li i {
+      color: #273986;
+      margin-right: 5px; }
+
+h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #273986;
+  margin-top: 0;
+  margin-bottom: 15px; }

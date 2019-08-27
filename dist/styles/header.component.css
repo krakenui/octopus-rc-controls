@@ -1,0 +1,36 @@
+/** Color */
+/* Font size */
+.top-header {
+  padding-top: 20px; }
+
+.brand {
+  color: #273986;
+  float: left;
+  text-transform: uppercase;
+  padding: 3px 0 0 10px;
+  line-height: normal; }
+  .brand .slogan {
+    letter-spacing: .5px; }
+
+.contact .contact-item {
+  height: 50px;
+  border: 1px solid #f4831e;
+  border-radius: 5px;
+  padding: 10px;
+  float: left;
+  color: #f4831e; }
+  .contact .contact-item:not(:first-child) {
+    margin-left: 10px; }
+  .contact .contact-item .content {
+    float: left;
+    padding-left: 10px;
+    line-height: normal;
+    margin-top: -3px; }
+    .contact .contact-item .content .small-text {
+      color: #000000; }
+
+.top-menu {
+  margin-top: 20px; }
+
+.logo-img {
+  max-height: 55px; }

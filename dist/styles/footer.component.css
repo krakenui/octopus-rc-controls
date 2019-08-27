@@ -1,0 +1,57 @@
+/** Color */
+/* Font size */
+.footer {
+  background-color: #f4f4f4;
+  padding-top: 20px; }
+
+.bottom-copyright {
+  background-color: #273986;
+  color: #ffffff;
+  font-size: 15px; }
+  .bottom-copyright a {
+    color: #f4831e;
+    text-decoration: none; }
+  .bottom-copyright .copyright {
+    line-height: 60px; }
+  .bottom-copyright .social {
+    line-height: 60px;
+    text-align: right; }
+    .bottom-copyright .social a {
+      margin-left: 5px; }
+
+.brand {
+  color: #273986;
+  float: left;
+  text-transform: uppercase;
+  padding: 3px 0 0 10px;
+  line-height: normal; }
+  .brand .slogan {
+    letter-spacing: 0.5px; }
+
+.top-sitemap .contact-list {
+  list-style: none;
+  margin-top: 25px;
+  padding-left: 0; }
+  .top-sitemap .contact-list > li {
+    font-size: 13px; }
+    .top-sitemap .contact-list > li i {
+      color: #273986;
+      margin-right: 5px; }
+
+.top-sitemap h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #273986;
+  margin-top: 0;
+  margin-bottom: 15px; }
+
+.embeded-map {
+  padding-bottom: 10px; }
+  .embeded-map iframe {
+    width: 80%;
+    min-height: 150px;
+    border: 1px solid #273986;
+    padding: 5px; }
+
+.logo-img {
+  max-height: 55px; }

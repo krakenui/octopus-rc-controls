@@ -1,0 +1,74 @@
+@import './variables';
+
+.product-item {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid $color-white-light;
+    box-shadow: 5px 5px 5px 2px $color-white-light;
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $color-gray-overlay;
+        display: none;
+    }
+    &:hover {
+        .overlay {
+            display: inherit;
+        }
+    }
+    .card-title {
+        text-overflow: ellipsis;
+        white-space: normal;
+        overflow: hidden;
+        height: 47px;
+        line-height: 22px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .card-img-top {
+        margin: auto;
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .list-group-item {
+        padding: 0;
+    }
+
+    .list-group {
+        padding: 15px;
+    }
+    .actions {
+        padding: 4px 16px;
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        .btn {
+            font-size: 14px;
+            color: $color-white;
+            border-color: $color-white;
+        }
+
+        i {
+            margin-right: 5px;
+        }
+    }
+}
+
+.price {
+    color: $color-red;
+
+    li::parent {
+        color: $color-red;
+    }
+}

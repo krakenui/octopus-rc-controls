@@ -1,0 +1,49 @@
+/** Color */
+/* Font size */
+.news-item {
+  padding: 30px 0; }
+  .news-item .image img {
+    object-fit: cover;
+    width: 100%;
+    height: auto; }
+  .news-item:last-child .content {
+    padding-bottom: 0;
+    border-bottom: none; }
+  .news-item .content {
+    width: calc(100% - 150px);
+    padding-bottom: 10px;
+    border-bottom: 1px solid #273986; }
+    .news-item .content .description {
+      margin: 0;
+      padding: 12px 0;
+      border: 0; }
+    .news-item .content .title {
+      font-size: 17px;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      color: #273986;
+      color: #273986;
+      font-size: 16px;
+      font-weight: normal; }
+      .news-item .content .title:hover {
+        color: #4568ff; }
+    .news-item .content .action {
+      margin-top: 20px; }
+      .news-item .content .action span {
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: left center;
+        line-height: 20px;
+        color: #666666;
+        font-size: 12px;
+        font-style: italic; }
+      .news-item .content .action span + span {
+        margin-left: 10px; }
+      .news-item .content .action i:before {
+        padding: 10px; }
+    .news-item .content .btn-detail {
+      background: #273986;
+      color: #ffffff; }
+      .news-item .content .btn-detail:hover {
+        color: #666666; }

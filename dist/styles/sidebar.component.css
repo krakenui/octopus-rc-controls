@@ -1,0 +1,15 @@
+/** Color */
+/* Font size */
+.sidebar {
+  height: 100%;
+  overflow-y: auto; }
+  .sidebar .ant-menu {
+    height: 100%; }
+    .sidebar .ant-menu.ant-menu-inline-collapsed .ant-menu-item .text,
+    .sidebar .ant-menu.ant-menu-inline-collapsed .ant-menu-submenu .text {
+      display: none !important; }
+    .sidebar .ant-menu .ant-menu-item .text,
+    .sidebar .ant-menu .ant-menu-submenu .text {
+      margin-left: 15px; }
+    .sidebar .ant-menu ul li:first-child {
+      margin-top: 0; }

@@ -1,0 +1,24 @@
+/** Color */
+/* Font size */
+.service-item {
+  width: 100%;
+  clear: both;
+  margin-bottom: 50px; }
+  .service-item .image {
+    width: 100%;
+    text-align: center; }
+    .service-item .image img {
+      max-width: 100%;
+      height: auto; }
+  .service-item .link {
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 28px; }
+  .service-item p {
+    line-height: normal;
+    color: #4d4d4d;
+    font-weight: 100; }
+  .service-item .extra {
+    width: 100%; }

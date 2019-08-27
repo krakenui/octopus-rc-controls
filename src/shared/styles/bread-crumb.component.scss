@@ -1,0 +1,43 @@
+@import './variables';
+
+//bread crumb
+.bread-cumb {
+    position: relative;
+    background-color: $color-blue;
+    height: 40px;
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 5px 0;
+
+        li {
+            display: block;
+            float: left;
+            margin-left: 8px;
+            &:not(:first-child)::before {
+                content: ' /  ';
+                color: $color-white;
+            }
+
+            a:hover {
+                color: $color-white;
+            }
+
+            a,
+            span {
+                text-transform: uppercase;
+                color: $color-white;
+            }
+        }
+    }
+}
+
+.bread-crumb-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1270px;
+}

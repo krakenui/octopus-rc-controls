@@ -1,0 +1,53 @@
+/** Color */
+/* Font size */
+.product-item {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 5px 5px 5px 2px #f2f2f2; }
+  .product-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000085;
+    display: none; }
+  .product-item:hover .overlay {
+    display: inherit; }
+  .product-item .card-title {
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    height: 47px;
+    line-height: 22px; }
+  .product-item .title {
+    font-size: 20px; }
+  .product-item .card-img-top {
+    margin: auto;
+    height: auto;
+    width: 100%;
+    max-width: 100%; }
+  .product-item .list-group-item {
+    padding: 0; }
+  .product-item .list-group {
+    padding: 15px; }
+  .product-item .actions {
+    padding: 4px 16px;
+    position: absolute;
+    top: 40%;
+    left: 15%; }
+    .product-item .actions .btn {
+      font-size: 14px;
+      color: #ffffff;
+      border-color: #ffffff; }
+    .product-item .actions i {
+      margin-right: 5px; }
+
+.price {
+  color: #ff0000; }
+  .price li::parent {
+    color: #ff0000; }

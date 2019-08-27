@@ -1,14 +1,26 @@
+const webpack = require("webpack");
 const path = require("path");
 const TerserJSPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
+const plugins = [
+  new MiniCssExtractPlugin({
+    filename: "[name]-[contenthash].css",
+    chunkFilename: "[name]-[contenthash].css"
+  }),
+  new webpack.DefinePlugin({
+    "process.env.NODE_ENV": JSON.stringify("production")
+  })
+];
+
 module.exports = {
   entry: path.join(__dirname, "./src/index.js"),
   output: {
-    filename: "index.js",
     path: path.resolve(__dirname, "dist"),
-    chunkFilename: "[name].bundle.js"
+    chunkFilename: "chunk-[chunkhash].js",
+    filename: "[name]-[chunkhash].js",
+    hashDigestLength: 8
   },
   optimization: {
     minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
@@ -46,12 +58,8 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: "style.css"
-    })
-  ],
   resolve: {
     extensions: [".js", ".jsx"]
-  }
+  },
+  plugins
 };

@@ -1,0 +1,27 @@
+/** Color */
+/* Font size */
+.service-block {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+  .service-block .title h2 {
+    font-size: 32px;
+    color: #010101;
+    text-align: center;
+    padding-bottom: 12px;
+    margin-top: 36px;
+    width: 100%; }
+  .service-block .title .gray-border {
+    border-bottom: solid 1px #666666;
+    max-width: 690px;
+    margin: 0 auto; }
+  .service-block .title .blue-border {
+    border: 3px solid #273986;
+    bottom: 4px;
+    margin: 0 auto;
+    position: relative;
+    width: 58px; }
+  .service-block .content {
+    text-align: center;
+    padding: 45px 0; }

@@ -1,0 +1,21 @@
+/** Color */
+/* Font size */
+.further-info {
+  padding: 20px 20px 300px 20px;
+  background-color: #f2f2f24a; }
+  .further-info .support {
+    text-align: center;
+    padding-bottom: 20px; }
+  .further-info .contact {
+    padding-top: 35px; }
+    .further-info .contact h3 {
+      text-align: center; }
+    .further-info .contact ul {
+      list-style: none; }
+      .further-info .contact ul i {
+        padding-right: 8px; }
+    .further-info .contact a,
+    .further-info .contact a:hover,
+    .further-info .contact a:active {
+      text-decoration: none;
+      color: #000000; }

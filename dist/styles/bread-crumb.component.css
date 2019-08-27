@@ -1,0 +1,31 @@
+/** Color */
+/* Font size */
+.bread-cumb {
+  position: relative;
+  background-color: #273986;
+  height: 40px; }
+  .bread-cumb ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 5px 0; }
+    .bread-cumb ul li {
+      display: block;
+      float: left;
+      margin-left: 8px; }
+      .bread-cumb ul li:not(:first-child)::before {
+        content: ' /  ';
+        color: #ffffff; }
+      .bread-cumb ul li a:hover {
+        color: #ffffff; }
+      .bread-cumb ul li a,
+      .bread-cumb ul li span {
+        text-transform: uppercase;
+        color: #ffffff; }
+
+.bread-crumb-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1270px; }

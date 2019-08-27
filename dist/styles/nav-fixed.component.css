@@ -1,0 +1,47 @@
+/** Color */
+/* Font size */
+.fix-top {
+  background-color: #3c8dbc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  .fix-top .logo {
+    float: left;
+    padding: 15px 10px;
+    padding-right: 0;
+    color: #ffffff; }
+    .fix-top .logo .text {
+      font-size: 20px; }
+    .fix-top .logo .logo-img {
+      max-width: 40px;
+      margin-right: 15px;
+      margin-top: -8px; }
+    .fix-top .logo .browse-btn {
+      float: right;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 0;
+      outline: none;
+      margin-top: -5px;
+      cursor: pointer; }
+      .fix-top .logo .browse-btn:hover, .fix-top .logo .browse-btn:active, .fix-top .logo .browse-btn:focus {
+        outline: none;
+        box-shadow: none; }
+  .fix-top .actions {
+    float: right; }
+    .fix-top .actions .navbar-nav {
+      padding-left: 0;
+      list-style: none;
+      display: block; }
+      .fix-top .actions .navbar-nav > li {
+        padding-left: 10px;
+        position: relative;
+        float: left;
+        display: block; }
+        .fix-top .actions .navbar-nav > li a {
+          padding: 15px 10px;
+          line-height: 20px;
+          position: relative;
+          display: block;
+          color: #ffffff; }

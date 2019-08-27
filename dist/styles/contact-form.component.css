@@ -1,0 +1,11 @@
+/** Color */
+/* Font size */
+.contact-form {
+  padding: 20px 100px 20px 30px; }
+  .contact-form .action {
+    text-align: right; }
+
+.error {
+  font-style: italic;
+  color: #ff0000;
+  font-size: 13px; }

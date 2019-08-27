@@ -1,0 +1,18 @@
+/** Color */
+/* Font size */
+.sc-editor {
+  background-color: #ffffff; }
+  .sc-editor .rdw-fontfamily-wrapper {
+    min-width: 200px; }
+    .sc-editor .rdw-fontfamily-wrapper .rdw-fontsize-dropdown {
+      min-width: 50px; }
+    .sc-editor .rdw-fontfamily-wrapper .rdw-fontfamily-dropdown {
+      width: 100%; }
+      .sc-editor .rdw-fontfamily-wrapper .rdw-fontfamily-dropdown .rdw-fontfamily-optionwrapper {
+        width: 100%; }
+      .sc-editor .rdw-fontfamily-wrapper .rdw-fontfamily-dropdown .rdw-fontfamily-placeholder {
+        max-width: 100%; }
+  .sc-editor .rdw-editor-toolbar {
+    background-color: #297ac573; }
+  .sc-editor .rdw-image-modal-upload-option-image-preview {
+    padding: 10px; }
