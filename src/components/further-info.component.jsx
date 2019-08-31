@@ -13,7 +13,7 @@ class FurtherInfo extends React.Component {
                     <a href={'tel:' + this.props.phone}>{this.props.phone}</a> - <a href={this.props.email}>{this.props.email}</a>
                 </div>
                 <div className="contact">
-                    <h3>Địa chỉ</h3>
+                    <h3>{this.props.contactTitle}</h3>
                     <ul className="contact-list">
                         <li className="address">
                             <i className="fas fa-map-marker-alt" />
