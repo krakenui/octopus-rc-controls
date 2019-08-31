@@ -41,7 +41,7 @@ class ContactForm extends React.Component {
     render() {
         return (
             <div className="contact-form">
-                <h3>Gửi thông tin liên hệ</h3>
+                <h3>{this.props.contactTitle}</h3>
                 <form>
                     <div className="row">
                         <div className="col-md-12">
