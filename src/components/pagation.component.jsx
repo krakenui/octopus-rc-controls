@@ -33,6 +33,14 @@ class Pagination extends React.Component {
     this.state = { currentPage: 1 };
   }
 
+  componentWillUpdate() {
+    if (this.props.totalRecords != null) {
+      this.totalRecords = this.props.totalRecords;
+      this.totalPages = Math.ceil(this.totalRecords / this.pageLimit);
+      this.state = { currentPage: this.state.currentPage };
+    }
+  }
+
   componentDidMount() {
     this.gotoPage(1);
   }
