@@ -14,6 +14,7 @@ class FurtherInfo extends React.Component {
                 </div>
                 <div className="contact">
                     <h3>{this.props.contactTitle}</h3>
+                    <p className="brand">{this.props.companyName}</p>
                     <ul className="contact-list">
                         <li className="address">
                             <i className="fas fa-map-marker-alt" />
