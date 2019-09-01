@@ -44,13 +44,15 @@ class HeaderComponent extends Component {
 
               <div className="contact float-right">
                 <div className="contact-item">
-                  <span className="float-left">
-                    <i className="fas fa-headphones" />
-                  </span>
-                  <div className="content">
-                    <div className="small-text">Tổng đài hỗ trợ</div>
-                    <div className="medium-text">{this.props.hotline}</div>
-                  </div>
+                  <a href={"tel:" + this.props.hotline}>
+                    <span className="float-left">
+                      <i className="fas fa-headphones" />
+                    </span>
+                    <div className="content">
+                      <div className="small-text">Tổng đài hỗ trợ</div>
+                      <div className="medium-text">{this.props.hotline}</div>
+                    </div>
+                  </a>
                 </div>
                 <div className="contact-item ">
                   <span className="float-left">
