@@ -95,8 +95,11 @@ class HeaderComponent extends Component {
 
 const mapStateToProps = state => {
   const contactInfo = state.user && state.user.contact;
-  contactInfo.socials =
-    contactInfo && contactInfo.socials && JSON.parse(contactInfo.socials);
+  if (contactInfo) {
+    contactInfo.socials =
+      contactInfo.socials && JSON.parse(contactInfo.socials);
+  }
+  
   const props = {
     ...contactInfo
   };
