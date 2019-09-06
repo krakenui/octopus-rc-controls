@@ -31,3 +31,5 @@ MIT
 2. Import css: "@Import "~/navi-controls/styles/styles.css"
 3. Using: import { BottomMenu } from "navi-controls"
 ```
+
+## Update actions to build & publish to npm
