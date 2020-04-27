@@ -1,6 +1,6 @@
 {
   "name": "navi-controls",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "naviet reactjs controls",
   "scripts": {
     "format-js": "prettier --single-quote --trailing-comma es5 --print-width=140 \"src/**/*.js\"",
@@ -8,12 +8,12 @@
     "format": "npm run format-js & npm run format-style",
     "clean": "gulp clean",
     "copy:meta": "gulp copy",
-    "build:jsx": "cross-env BABEL_OUTPUT=commonjs babel src/ --out-dir dist/lib/ --ignore **/__tests__,**/__mocks__",
+    "build:jsx": "cross-env BABEL_OUTPUT=commonjs babel src/ --out-dir dist/ --ignore **/__tests__,**/__mocks__",
     "build:sass": "node-sass src/shared/styles -o dist/styles",
-    "build": "npm run clean & npm run build:jsx & npm run build:sass & npm run copy:meta",
+    "build": "npm run clean && npm run build:jsx && npm run build:sass && npm run copy:meta",
     "build:fmt": "npm run format & npm run build"
   },
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "author": "Duy Luong Phung",
   "repository": {
     "type": "git",
