@@ -1,7 +1,7 @@
 {
-  "name": "navi-controls",
-  "version": "1.2.0",
-  "description": "naviet reactjs controls",
+  "name": "octopus-rc-controls",
+  "version": "1.0.0",
+  "description": "octopus reactjs controls",
   "scripts": {
     "format-js": "prettier --single-quote --trailing-comma es5 --print-width=140 \"src/**/*.js\"",
     "format-style": "prettier --single-quote --trailing-comma es5 --print-width=140 \"src/**/*.scss\"",
@@ -17,7 +17,7 @@
   "author": "Duy Luong Phung",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DuyLuongPhung/navi-controls.git"
+    "url": "git+https://github.com/krakenui/octopus-rc-controls.git"
   },
   "keywords": [
     "reactjs",
