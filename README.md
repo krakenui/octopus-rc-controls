@@ -1,6 +1,13 @@
-# Navi-Controls
+# octopus-rc-controls
 
-Navi-Tech UI controls by ReactJS!
+ReactJS components by KrakenTeam!
+
+[![NPM version][npm-image]][npm-url] [![npm download][download-image]][download-url]
+
+[npm-image]: http://img.shields.io/npm/v/octopus-rc-controls.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/octopus-rc-controls
+[download-image]: https://img.shields.io/npm/dm/octopus-rc-controls.svg?style=flat-square
+[download-url]: https://npmjs.org/package/octopus-rc-controls
 
 ## LICENSE
 
@@ -27,9 +34,9 @@ MIT
 ## How it work
 
 ```
-1. Install package: npm install navi-controls
-2. Import css: "@Import "~/navi-controls/styles/styles.css"
-3. Using: import { BottomMenu } from "navi-controls"
+1. Install package: npm install octopus-rc-controls
+2. Import css: "@Import "~/octopus-rc-controls/styles/styles.css"
+3. Using: import { BottomMenu } from "octopus-rc-controls"
 ```
 
 ## Update actions to build & publish to npm
